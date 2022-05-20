@@ -181,3 +181,28 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* 375px */
+
+@media (max-width: 500px) {
+  main{
+    width: 375px;
+    height: 667px;
+  }
+  .glass{
+    width: 70%;
+    height: 50%;
+    display: inline-block;
+  }
+  
+}
+@media (max-width: 600px){
+  .cards{
+    
+    width: 375px;
+    display: inline-block;
+    
+  }
+}
+
